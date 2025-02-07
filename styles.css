@@ -1,0 +1,233 @@
+/* Resetando o estilo */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout básico */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e9f7f8/* #f4f4f4  */;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  /*#4faabb*/
+  background-color: #00548c;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+/*Links*/
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  font-size: 40px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+  background: rgba(255, 255, 255, 0.4);
+}
+
+section {
+  margin: 40px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+/* Estilo das Habilidades */
+.skills {
+  margin-top: 40px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Estilo da barra de progresso */
+.progress-bar {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress {
+  background-color: #56cfd4;
+  height: 100%;
+  border-radius: 10px;
+}
+
+span {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-left: 10px;
+}
+
+/* Estilo da galeria de projetos */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #00548C;
+  color: white;
+}
+.ladoD{
+  width: 40%;
+  display: inline-block;
+}
+.ladoE{
+  width: 40%;
+  float: right;
+  margin-right: 70px;
+}
+.foto{
+  border-radius: 300px;
+}
+.footers{
+  background-color: #56cfd4;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #c9fff0, #cafaff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.containers {
+    display: flex;
+    background: #00548c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 900px;
+}
+.info {
+    flex: 1;
+    padding: 20px;
+}
+.info h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.info p {
+     margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.formulario {
+            flex: 1;
+            background: #FFF;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #00548c;
+            color: #FFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #56cfd4;
+        }
